@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color:#5c5470; */
+    background-color: rgba(92, 84, 112, 0.5);
+    /* background-color:white; */
+  }
+  
+  .navbarList {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarItem {
+    margin: 0 20px;
+  }
+  
+  .navbarItem a {
+    color: #dbd8e3;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .navbarItem a:hover,
+  .navbarItem a.active {
+    color: #fff;
+    /* color: #808080; */
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-weight: 500;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    list-style-type: none;
+    padding: 0;
+    width: 45%;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px; /* Increase the font size */
+    text-align: justify; /* Justify the text */
+    line-height: 1.8; /* Increase the line spacing */
+  }
+  
+  .column li {
+    margin-bottom: 15px; /* Increase space between list items */
+    color: black;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .column li:hover {
+    color: gray;
+  }
+  

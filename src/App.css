@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/* 
+#resumeBuilder {
+  background-color: #f4f4f4;
+} */
+
+/* #preview {
+  background-color: #e2e2e2;
+} */
+
+/* #footer {
+  background-color: #d0d0d0;
+} */
